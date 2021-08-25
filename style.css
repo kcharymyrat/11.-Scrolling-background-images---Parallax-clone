@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  opacity: 0.8;
+}
+
+h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #fff;
+  background: black;
+  padding: 1rem 2rem;
+  letter-spacing: 1rem;
+}
+
+.bimg > h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: black;
+  background: white;
+  padding: 1rem 2rem;
+  letter-spacing: 1rem;
+  opacity: 0.4;
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+}
+
+.bimg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.bimg1 {
+  background-image: url("./img/image1.jpg");
+}
+
+.bimg2 {
+  background-image: url("./img/image2.jpg");
+  height: 400px;
+}
+
+.bimg3 {
+  background-image: url("./img/image3.jpg");
+  height: 400px;
+}
+
+.section {
+  text-align: center;
+  margin: auto;
+  padding: 2rem 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-dark {
+  background: black;
+  color: #eee;
+  padding: 2rem 2rem;
+}
